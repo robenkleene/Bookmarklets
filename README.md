@@ -2,4 +2,13 @@ A collection of useful bookmarklets. Explanations of each bookmarklet are in tha
 
 These bookmarklets are built using [Daring Fireball: JavaScript Bookmarklet Builder](http://daringfireball.net/2007/03/javascript_bookmarklet_builder).
 
-If you just want to use the bookmarklet, cut and paste the first line of the .js file. If you want to edit the bookmarklet, you'll have to follow the link to the JavaScript Bookmarklet Builder and understand it.
+To install a bookmarklet, cut and paste the first line of the .js file. If you want to edit a bookmarklet, you'll have visit the link to the JavaScript Bookmarklet Builder and understand it.
+
+A note on developing bookmarklets: developing bookmarklets is excruciatingly annoying, this AppleScript makes it less so:
+
+	set theBookmarkletFile to "/Users/dfdnatural/Desktop/Bookmarklet.js"	
+	set theJavaScript to read theBookmarkletFile	
+	tell application "Safari"
+		do JavaScript theJavaScript in document 1
+	end tell
+	 

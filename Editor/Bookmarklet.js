@@ -1,9 +1,9 @@
 // javascript:var%20regularExpression%20=%20/((&|\?)q=)([^&]*)(?!.*&q=)/g;var%20match%20=%20regularExpression.exec(window.location);var%20searchString%20=%20match[3];searchString%20=%20decodeURIComponent(searchString);searchString%20=%20searchString.replace(/\+site:.*$/,%20%27%27);searchString%20=%20searchString.replace(/\%22/g,%20%27%27);searchString%20=%20%22\%22%22%20+%20searchString%20+%20%22\%22%22;siteSearches%20=%20%22+site:nytimes.com+OR+site:newyorker.com%22;searchString%20=%20searchString%20+%20siteSearches;window.location%20=%20%22http://www.google.com/search?q=%22%20+%20searchString;
 
-// Searches the New York Times and New Yorker websites for the phrase you searched for in Google. The idea is that if one of those two websites use the phrase you searched for in a similar context then you're probably using it correctly.
+// Searches The New York Times and The New Yorker websites for the phrase just searched for in Google. The idea being you can find cases of usage on those sites to determine if you're using the phrase correctly. I.e., it's a tool for copy editing.
 
-// Expected Usage Case:
-// 1. While write a phrase in a document you are working on, you aren't sure if the punctuation or usage is correct. 
+// Usage:
+// 1. While write a phrase in a document you are working on, you aren't sure if you're punctuation or usage is correct. 
 // 2. Copy the phrase you are unsure of to the clipboard.
 // 3. Perform a google search with that phrase.
 // 4. Trigger this bookmarklet, the bookmarklet will narrow that search to just the most authoritatively edited publications.

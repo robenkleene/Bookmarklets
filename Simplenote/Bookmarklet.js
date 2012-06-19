@@ -1,4 +1,4 @@
-
+// javascript:var%20linkTitle%20=%20encodeURIComponent(document.title);var%20linkLocation%20=%20encodeURIComponent(window.location);var%20newLocation%20=%20%27pastebot://%27+linkTitle+%22\n%22+linkLocation;var%20selectedText%20=%20%27%27;if%20(window.getSelection)%20{selectedText%20=%20window.getSelection();}%20else%20if%20(document.getSelection)%20{selectedText%20=%20document.getSelection();}%20else%20if%20(document.selection)%20{selectedText%20=%20document.selection.createRange().text;}if%20(selectedText%20!=%20%27%27)%20{newLocation%20=%20newLocation%20+%20escape(%22\n\n%22)%20+%20selectedText;}window.location%20=%20newLocation;
 
 // Adds the current web page title, url, and text selection to a new note in Simplenote.
 
