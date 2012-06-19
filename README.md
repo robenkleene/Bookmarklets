@@ -1,4 +1,4 @@
-A collection of useful bookmarklets. Explanations of each bookmarklet are in that bookmarklet's comments.
+A collection of useful bookmarklets. An explanation of each bookmarklet is in that bookmarklet's comments.
 
 These bookmarklets are built using [Daring Fireball: JavaScript Bookmarklet Builder](http://daringfireball.net/2007/03/javascript_bookmarklet_builder).
 
