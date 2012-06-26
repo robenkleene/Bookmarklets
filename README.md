@@ -10,7 +10,15 @@ Creates a new action in OmniFocus using the web page title, URL, and selected te
 
 ## Pastebot
 
-Opens Pastebot with the current web page title, URL, and selected text as a new Pastebot entry, which also copies it to the clipboard. I.e., this acts as a shortcut to copy the web page title, URL, and selected text to the clipboard all at once. Requires [Pastebot](http://tapbots.com/software/pastebot/), iOS only.
+### Link
+
+Opens Pastebot with the current web page title, URL, and selected text as a new Pastebot entry, which also copies it to the clipboard. I.e., this acts as a shortcut to copy the web page title, URL, and selected text to the clipboard all at once. 
+
+### Markdown Link
+
+Same as above but makes a Markdown Link to the current web page. (And ignores the selected text.)
+
+Requires [Pastebot](http://tapbots.com/software/pastebot/), iOS only.
 
 ## Simplenote
 
