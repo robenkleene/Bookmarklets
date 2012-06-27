@@ -18,6 +18,11 @@ Opens Pastebot with the current web page title, URL, and selected text as a new 
 
 Same as above but makes a Markdown Link to the current web page. (And ignores the selected text.)
 
+### Copy Source
+
+Opens Pastebot with the current web pages source, which copies it to the clipboard. I.e., this is a shortcut to copy the source of the current web page to the clipboard.
+
+
 Requires [Pastebot](http://tapbots.com/software/pastebot/), iOS only.
 
 ## Simplenote
