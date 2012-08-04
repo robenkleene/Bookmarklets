@@ -26,7 +26,11 @@ Opens Pastebot with the current web page's source, which copies it to the clipbo
 
 Creates a new Simplenote note with the current web page title, URL, and selected text. Requires [Simplenote](http://itunes.apple.com/us/app/simplenote/id289429962?mt=8), iOS only.
 
-### Sitesearch
+### Search Site
+
+Loads a Google site search of the base URL of the currently viewed site. I.e., this is a quick way to start searching the site you are currently viewing.
+
+### Site Search
 
 Uses the last search term of a Google search to create a Google site search, i.e., `drexciya allmusic` becomes `drexciya site:allmusic.com`. This is as close as I could get to a [Smart Bookmarks](http://en.wikipedia.org/wiki/Smart_Bookmarks) replacement that works on iOS.
 
