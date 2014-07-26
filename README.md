@@ -6,6 +6,10 @@ A collection of useful bookmarklets.
 
 Opens Drafts with the current web page title, URL, and selected text as a new entry. Requires [Drafts](http://agiletortoise.com/drafts/), iOS only.
 
+### Drafts Markdown
+
+Opens Drafts with the current web page title, URL, and selected text as Markdown as a new entry. Requires [Drafts](http://agiletortoise.com/drafts/), iOS only.
+
 ### Editor
 
 Takes the current Google search and narrows it to just _The New York Times_ and _The New Yorker_ websites, useful for copy editing.
