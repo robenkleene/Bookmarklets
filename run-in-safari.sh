@@ -3,9 +3,9 @@
 # Takes JavaScript from stdin as input and runs it in in the frontmost Safari window. Useful for testing bookmarklets. It can easily be adapted to a TextMate bundle or Automator service.
 
 # Usage example from the command line:
-# ./Run\ in\ Safari.sh < Editor.js 
+# ./run-in-safari.sh < Editor.js 
 
-tempfile=$(mktemp /tmp/RunJavaScript-XXXXXX)
+tempfile=$(mktemp "${TMPDIR:-/tmp}/tmux-paths.XXXX")
 cat > "$tempfile"
 
 osascript <<-APPLESCRIPT
@@ -22,3 +22,5 @@ on error errMsg number errNum
 		" Error Message: " & errMsg & " Number " & errNum
 end try
 APPLESCRIPT
+
+rm $tempfile
