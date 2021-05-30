@@ -22,9 +22,7 @@ if (initialLocation.lastIndexOf(duckDuckGoPrefix, 0) === 0) {
   var match = regularExpression.exec(window.location);
   var searchString = match[1];
   window.location =
-    "http://www.duckduckgo.com/?q=site:" +
-    searchString +
-    encodeURIComponent(" ");
+    googlePrefix + "?q=site:" + searchString + encodeURIComponent(" ");
 }
 if (findString) {
   var newLocation = initialLocation
